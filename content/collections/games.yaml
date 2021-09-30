@@ -1,0 +1,13 @@
+title: Games
+template: games/show
+layout: layout
+revisions: false
+route: '/games/{slug}'
+date: true
+sort_dir: asc
+date_behavior:
+  past: unlisted
+  future: public
+structure:
+  root: false
+  max_depth: 1

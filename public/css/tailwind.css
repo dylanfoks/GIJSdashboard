@@ -581,6 +581,14 @@ video {
 	height: 100vh !important;
 }
 
+.flex-row {
+	flex-direction: row !important;
+}
+
+.flex-col {
+	flex-direction: column !important;
+}
+
 .items-center {
 	align-items: center !important;
 }
@@ -589,14 +597,10 @@ video {
 	justify-content: center !important;
 }
 
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
 	--tw-space-x-reverse: 0 !important;
-	margin-right: calc(0.75rem * var(--tw-space-x-reverse)) !important;
-	margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse))) !important;
-}
-
-.rounded {
-	border-radius: 0.25rem !important;
+	margin-right: calc(2rem * var(--tw-space-x-reverse)) !important;
+	margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse))) !important;
 }
 
 .bg-gray-100 {
@@ -604,56 +608,21 @@ video {
 	background-color: rgba(243, 244, 246, var(--tw-bg-opacity)) !important;
 }
 
-.p-2 {
-	padding: 0.5rem !important;
-}
-
 .px-2 {
 	padding-left: 0.5rem !important;
 	padding-right: 0.5rem !important;
-}
-
-.pb-16 {
-	padding-bottom: 4rem !important;
-}
-
-.text-center {
-	text-align: center !important;
 }
 
 .font-sans {
 	font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
 }
 
-.text-xs {
-	font-size: 0.75rem !important;
-	line-height: 1rem !important;
-}
-
-.font-bold {
-	font-weight: 700 !important;
-}
-
-.uppercase {
-	text-transform: uppercase !important;
-}
-
 .leading-normal {
 	line-height: 1.5 !important;
-}
-
-.text-gray-500 {
-	--tw-text-opacity: 1 !important;
-	color: rgba(107, 114, 128, var(--tw-text-opacity)) !important;
 }
 
 .text-gray-800 {
 	--tw-text-opacity: 1 !important;
 	color: rgba(31, 41, 55, var(--tw-text-opacity)) !important;
-}
-
-.hover\:bg-gray-200:hover {
-	--tw-bg-opacity: 1 !important;
-	background-color: rgba(229, 231, 235, var(--tw-bg-opacity)) !important;
 }
 
